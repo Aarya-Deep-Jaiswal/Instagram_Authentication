@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+img {
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0px;
+    object-fit: fill ;
+    position: absolute;
+    z-index: -1;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    left:35%;
+    font-size: 3em;
+    color: white;
+}
+.sign{
+    height: 22em;
+    width: 50em;
+    border: 15px inset black;
+    position: absolute;
+    top: 10em;
+    left: 28%;
+}
+.lb{
+    font-size: 2.2em;
+    padding-left: 1em;
+    color: white;
+}
+.ans{
+    font-size: 2em;
+}
+.SignIn{
+    width: 4em;
+    font-size: 2em;
+    background-color:transparent;
+    position: relative;
+    left: 45%;
+    color: white;
+}

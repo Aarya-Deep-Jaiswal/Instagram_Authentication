@@ -1,0 +1,34 @@
+*{
+    overflow: hidden;
+}
+
+h1{
+    position: absolute;
+    text-align: center;
+    left:28.5%;
+    font-size: 3em;
+    color: white;
+}
+.form{
+    height: 22em;
+    width: 50em;
+    border: 15px inset black;
+    position: absolute;
+    top: 10em;
+    left: 28%;
+}
+.lb{
+    font-size: 2.2em;
+    padding-left: 1em;
+    color: white;
+}
+.ans{
+    font-size: 2em;
+}
+.SignUp{
+    font-size: 1.5em;
+    background-color:transparent;
+    position: relative;
+    left: 45%;
+    color: white;
+}
