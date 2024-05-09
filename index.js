@@ -32,6 +32,10 @@ app.listen(port, (req, res) => {
     console.log("Listening on port 8080");
 });
 
+app.get("/",(req,res)=>{
+    res.redirect("/home")
+});
+
 app.get("/home", (req, res) => {
     res.render("home.ejs");
 });
